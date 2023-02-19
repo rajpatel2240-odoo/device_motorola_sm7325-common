@@ -410,6 +410,9 @@ on property:sys.boot_completed=1
     #Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
+    # Enable UFS powersaving
+    write /sys/devices/platform/soc/1d84000.ufshc/clkgate_enable 1
+
 on property:persist.vendor.radio.atfwd.start=false
     stop vendor.atfwd
 
