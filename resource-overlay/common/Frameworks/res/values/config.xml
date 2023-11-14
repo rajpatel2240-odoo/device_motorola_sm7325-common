@@ -373,8 +373,4 @@
 
      <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
-
-    <!-- Defines the sysfs attribute path used by the device
-         to enable/disable DC dimming. -->
-    <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc</string>
 </resources>
