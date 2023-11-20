@@ -391,7 +391,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
 
 # Power
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     android.hardware.power-service.moto-libperfmgr
 
 PRODUCT_COPY_FILES += \
