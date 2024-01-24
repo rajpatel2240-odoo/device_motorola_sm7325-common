@@ -21,9 +21,6 @@ genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_timeout_ms      
 genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon/extcon2/name       u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon/extcon3/name       u:object_r:vendor_sysfs_graphics:s0
 
-# DC dimming
-genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc   u:object_r:vendor_sysfs_dc_dim:s0
-
 # Health
 genfscon sysfs /devices/platform/soc/soc:mmi,charger/power_supply/mmi_battery      u:object_r:vendor_sysfs_battery_supply:s0
 
